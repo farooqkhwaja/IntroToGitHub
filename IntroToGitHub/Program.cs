@@ -6,6 +6,10 @@
         {
             Console.WriteLine("Hello, World!");
 
+            Console.Write("give me your name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine(name);
         }
     }
 }
